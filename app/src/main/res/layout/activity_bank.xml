@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/nmb"
+        android:scaleType="center"
+        android:id="@+id/nmb"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3333"
+        android:orientation="vertical"
+        android:layout_alignBottom="@id/nmb"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NMB BANK"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:id="@+id/name"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thapathalili branch"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/prabhu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="107dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/prabhu" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3333"
+        android:orientation="vertical"
+        android:layout_alignBottom="@id/prabhu"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRABHU BANK"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:id="@+id/name1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Koteshwor branch"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:textColor="#fff"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

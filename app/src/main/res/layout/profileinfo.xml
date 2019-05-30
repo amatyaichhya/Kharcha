@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/ichhya"
+        android:id="@+id/pp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3333"
+        android:orientation="vertical"
+        android:layout_below="@id/pp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NMB BANK"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:id="@+id/name"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thapathalili branch"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:id="@+id/email"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/pp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/edit_white"
+        android:id="@+id/edit"
+        android:clickable="true"/>
+
+</RelativeLayout>

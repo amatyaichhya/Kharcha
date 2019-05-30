@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/week1"
+      android:title="week 1">
+  </item>
+    <item
+        android:id="@+id/week2"
+        android:title="week 2">
+    </item>
+    <item
+       android:id="@+id/week3"
+       android:title="week 3">
+    </item>
+    <item
+        android:id="@+id/week4"
+        android:title="week 4">
+    </item>
+    <item
+        android:id="@+id/week5"
+        android:title="week 5">
+    </item>
+
+</menu>

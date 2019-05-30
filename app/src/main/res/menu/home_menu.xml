@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:title="today"
+        android:icon="@drawable/today"
+        android:id="@+id/today"/>
+    <item
+        android:id="@+id/profile"
+        android:title="profile"/>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/info"
+        android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/appinfo"
+                android:title="appinfo"/>
+            <item
+                android:id="@+id/accountinfo"
+                android:title="accountinfo"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/exit"
+        android:title="Logout"/>
+
+</menu>
